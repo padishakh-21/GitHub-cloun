@@ -1,0 +1,40 @@
+.home-nav {
+  top: 0;
+  z-index: 5;
+}
+
+.list-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-item:hover {
+  background-color: rgba(102, 102, 102, 0.117);
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .home-nav {
+    padding-left: 250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-nav {
+    overflow: auto !important;
+    padding-left: 0;
+    z-index: 20;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+  .item-link .bi, .item-link svg{
+    display: none !important;
+    
+  }
+
+  .home-list {
+    display: block !important;
+  }
+}

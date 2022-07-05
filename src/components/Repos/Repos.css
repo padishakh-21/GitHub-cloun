@@ -1,0 +1,33 @@
+.search-repo {
+  max-width: 550px !important;
+}
+
+.star-btn {
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+.updated {
+  font-size: 14px;
+  color: #545454
+}
+
+.form-select {
+  width: 120px;
+}
+
+
+@media only screen and (max-width:768px) {
+  .repos-top {
+    flex-direction: column-reverse;
+  }
+
+  .create-repo {
+    width: 100%;
+    justify-content: center !important;
+  }
+
+  .search-repo {
+    min-width: 100%;
+  }
+}

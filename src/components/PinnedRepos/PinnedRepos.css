@@ -1,0 +1,73 @@
+.pinned-repos {
+  z-index: 1;
+}
+
+.text {
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.text:hover {
+  color: #0969DA
+}
+
+.repos-item {
+  width: calc(50% - 10px);
+}
+
+.repo-title {
+  color: #0969DA;
+  font-weight: 600;
+}
+
+.repo-title:hover {
+  text-decoration: underline !important;
+}
+
+.repo-type {
+  font-size: 14px;
+  font-weight: 600;
+  color: #545454
+}
+
+.yellow::before {
+  display:inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #F1E05A;
+  border-radius: 50%;
+  margin-right: 4px;
+  content: "";
+}
+
+.red::before {
+  display:inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #E34C26;
+  border-radius: 50%;
+  margin-right: 4px;
+  content: "";
+}
+
+.purple::before {
+  display:inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #563D7C;
+  border-radius: 50%;
+  margin-right: 4px;
+  content: "";
+}
+
+.repo-language {
+  font-size: 14px;
+  color: #545454
+}
+
+
+@media only screen and (max-width: 768px) {
+  .repos-item {
+    width: 100%;
+  }
+}

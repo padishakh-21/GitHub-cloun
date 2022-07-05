@@ -1,0 +1,31 @@
+.bi-github {
+  color: #24292f87
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+.footer-nav-link {
+  font-size: 12px;
+}
+
+.footer-nav-item:hover .footer-nav-link{
+  text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  }
+
+@media only screen and (max-width: 992px) {
+    .footer {
+      flex-direction: column-reverse;
+    }
+
+    .footer-navbar {
+      justify-content: center !important;
+    }
+}
